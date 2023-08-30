@@ -5,6 +5,6 @@ export class CarsController {
 
     @Get()
     getAllCars() {
-        return ['Toyota','Honda','Jeep']
+        return this.cars;
     }
 }
